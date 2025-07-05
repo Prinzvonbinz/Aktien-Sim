@@ -1,0 +1,77 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #eef2f3;
+    margin: 0;
+    padding: 0;
+}
+
+.app-container {
+    max-width: 400px;
+    margin: 60px auto;
+    background: #fff;
+    border-radius: 12px;
+    box-shadow: 0 4px 24px rgba(0,0,0,0.10);
+    padding: 32px 24px;
+    text-align: center;
+}
+
+h1 {
+    margin-bottom: 28px;
+    color: #333;
+}
+
+.stock-section {
+    margin-bottom: 24px;
+}
+
+.stock-label {
+    font-size: 18px;
+    color: #555;
+}
+
+.stock-price {
+    font-size: 2.5em;
+    font-weight: bold;
+    color: #2196f3;
+    margin-top: 8px;
+}
+
+.controls {
+    margin: 24px 0 20px 0;
+}
+
+.controls button {
+    font-size: 1.1em;
+    padding: 10px 26px;
+    margin: 0 10px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    background: #2196f3;
+    color: #fff;
+    transition: background 0.2s;
+}
+
+.controls button:hover {
+    background: #1976d2;
+}
+
+.status {
+    margin-bottom: 18px;
+    font-size: 1.1em;
+    color: #444;
+}
+
+.message {
+    height: 26px;
+    font-size: 1em;
+    color: #c62828;
+    margin-top: 8px;
+}
+
+@media (max-width: 480px) {
+    .app-container {
+        width: 98vw;
+        padding: 16px 4px;
+    }
+}
