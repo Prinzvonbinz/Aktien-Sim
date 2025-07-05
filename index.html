@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <title>Aktien-Simulator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="app-container">
+        <h1>Aktien-Simulator</h1>
+        <div class="stock-section">
+            <div class="stock-label">Aktueller Kurs:</div>
+            <div class="stock-price" id="stockPrice">100.00 €</div>
+        </div>
+        <div class="controls">
+            <button id="buyBtn">Kaufen</button>
+            <button id="sellBtn">Verkaufen</button>
+        </div>
+        <div class="status">
+            <div>Dein Kontostand: <span id="balance">1,000.00 €</span></div>
+            <div>Deine Aktien: <span id="shares">0</span></div>
+        </div>
+        <div class="message" id="message"></div>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
