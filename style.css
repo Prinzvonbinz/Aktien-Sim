@@ -6,12 +6,12 @@ body {
 }
 
 .app-container {
-    max-width: 430px;
+    max-width: 400px;
     margin: 60px auto;
     background: #fff;
     border-radius: 12px;
     box-shadow: 0 4px 24px rgba(0,0,0,0.10);
-    padding: 32px 16px;
+    padding: 32px 24px;
     text-align: center;
 }
 
@@ -21,7 +21,7 @@ h1 {
 }
 
 .stock-section {
-    margin-bottom: 16px;
+    margin-bottom: 24px;
 }
 
 .stock-label {
@@ -34,14 +34,6 @@ h1 {
     font-weight: bold;
     color: #2196f3;
     margin-top: 8px;
-}
-
-#chart {
-    margin: 0 auto 22px auto;
-    display: block;
-    background: #f8fafc;
-    border-radius: 8px;
-    box-shadow: 0 2px 8px rgba(33,150,243,0.06);
 }
 
 .controls {
@@ -81,9 +73,5 @@ h1 {
     .app-container {
         width: 98vw;
         padding: 16px 4px;
-    }
-    #chart {
-        width: 96vw !important;
-        height: 140px !important;
     }
 }
